@@ -3,7 +3,10 @@ This respository contains **skills for agents** to perform Day2Day tasks like sw
 
 ## Instructions to use the skills
 
-- **All Skills** `npx skills add jayoswal-devon/devon-greythr-skills`
+- **All Skills**
+```bash
+npx skills add jayoswal-devon/devon-greythr-skills
+```
 
 - **Browser-Act Skills** [Required & automatically fetched by other skills]'
 
