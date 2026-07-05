@@ -7,7 +7,13 @@ description: check-leaves-balances skill to check available leaves across all le
 
 # Pre-Requisites
 - Always work in current project root directory
-- DevOn's Greythe Portal credentials (employee_id and password) are stored in environment variables `GREYTHR_EMPLOYEE_ID` and `GREYTHR_PASSWORD` respectively. If not set, never ask use for credentials, instead inform user to set the environment variables by running `export GREYTHR_EMPLOYEE_ID=<your_employee_id>` and `export GREYTHR_PASSWORD=<your_password>` and exit the workflow.
+- DevOn's Greythr Portal credentials must be set as environment variables `GREYTHR_EMPLOYEE_ID` and `GREYTHR_PASSWORD`. Never ask the user for credentials directly.
+
+```bash
+pwd && if [[ -n "$GREYTHR_EMPLOYEE_ID" && -n "$GREYTHR_PASSWORD" ]]; then echo "CREDENTIALS_SET"; else echo "CREDENTIALS_MISSING"; fi
+```
+- If `CREDENTIALS_MISSING` is printed, exit the workflow and ask the user to run `export GREYTHR_EMPLOYEE_ID=<your_employee_id>` and `export GREYTHR_PASSWORD=<your_password>`, then restart the coding agent session/terminal.
+
 - Install `browser-act` skill using the command 
 ```bash
 npx skills add https://github.com/jayoswal-devon/devon-greythr-skills --skill browser-act
