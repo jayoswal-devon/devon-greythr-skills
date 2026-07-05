@@ -1,5 +1,5 @@
 ## About this repository
-This respository contains **skills for agents** to perform Day2Day tasks like swipe-in/out, attendance regularization, leaves check, leaves apply etc on the **DevOn's Greythr Portal**
+This respository contains **skills for agents** to perform Day2Day tasks like swipe-in/out, attendance regularization, leaves check, leaves apply etc on the [DevOn's Greythr Portal](https://devon.greythr.com) 
 
 ## Instructions to use the skills
 
@@ -29,3 +29,13 @@ npx skills add https://github.com/jayoswal-devon/devon-greythr-skills --skill sw
 - Swipe-in to mark attendance on Greythr portal
 ### 3. swipe-out
 - Swipe-out to mark attendance on Greythr portal
+
+## Token Count
+| Skill Name | Token Count |
+|------------|-------------|
+| browser-act | ~ 5,300 |
+| check-leaves-balances | ~ 600 |
+| swipe-in | TODO |
+| swipe-out | TODO |
+
+_Used [OpenAI Tokenizer](https://platform.openai.com/tokenizer)_
