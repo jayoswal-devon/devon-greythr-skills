@@ -31,11 +31,10 @@ npx skills add https://github.com/jayoswal-devon/devon-greythr-skills --skill br
 5. After successful login, on the central area there will be Sign Out button, it will be placed along with Day, Date, View Swipes link. the button could be Sign In or Sign Out depending on what previous swipe was, and it allows multiple swipes per day
 6. If button is Swipe In, then dont click it, skip this step
 7. If button is Swipe Out, then click it, it opens another modal, choose Office from dropdown (Enter Sign Out location)and click Sign Out
-8. Click on View Swipes link, it opens list of swipes done for the day take screenshot
+8. Click on View Swipes link, it opens list of swipes done for the day, jsut read it
 9. Click on logout button (present at top right corner) to logout from the portal and close the browser session.
 
 ## Workflow General Instructions
 - Always use --headed browser mode.
 - after executing commands wait for browser to be stable and do not hurry to execute next command.
 - Do not click/input anywhere else on the page, only click on the elements which are required to be clicked/input as per the workflow.
-- Always take screenshot after each step and save it in the current project root directory with a unique name.
