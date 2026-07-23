@@ -35,7 +35,7 @@ npx skills add https://github.com/jayoswal-devon/devon-greythr-skills --skill sw
 |------------|-------------|
 | browser-act | ~ 5,300 |
 | check-leaves-balances | ~ 600 |
-| swipe-in | TODO |
-| swipe-out | TODO |
+| swipe-in | 628 |
+| swipe-out | 628 |
 
 _Used [OpenAI Tokenizer](https://platform.openai.com/tokenizer)_
